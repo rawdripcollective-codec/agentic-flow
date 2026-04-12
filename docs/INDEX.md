@@ -26,6 +26,12 @@ Practical guides and tutorials for using the system.
 - [ONNX Optimization Guide](guides/ONNX_OPTIMIZATION_GUIDE.md) - Performance optimization
 - [OpenRouter Deployment](guides/OPENROUTER_DEPLOYMENT.md) - OpenRouter setup
 
+### 🛠️ [Development](development/)
+Contributing guidelines, CI/CD pipeline, and developer workflows.
+
+- [Contributing Guide](development/CONTRIBUTING.md) - Code standards and contribution workflow
+- [CI/CD Setup](development/CI-CD-SETUP.md) - GitHub Actions workflows, security scanning, and Dependabot
+
 ### 🏗️ [Architecture](architecture/)
 System design, planning, and technical architecture.
 
