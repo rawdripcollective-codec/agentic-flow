@@ -474,14 +474,30 @@ Closes #123
 Related to #456
 ```
 
-### 5. Code Review
+### 5. CI Checks
+
+When you open a pull request, the following automated checks run automatically:
+
+| Check | Workflow | What it validates |
+|-------|----------|-------------------|
+| Lint & Format | `ci.yml` | ESLint and Prettier |
+| Build | `ci.yml` | Compiles on Node 20 & 22, Ubuntu / macOS / Windows |
+| Test | `ci.yml` | Jest test suite with coverage |
+| Security Audit | `ci.yml` | `npm audit --audit-level=high` |
+| CodeQL | `security.yml` | Static security analysis |
+| Secret Detection | `security.yml` | TruffleHog verified secret scan |
+| Dependency Review | `security.yml` | Blocks high-severity or restricted-license packages |
+
+All checks must be green before a PR can be merged. See [CI/CD Setup](CI-CD-SETUP.md) for details on each workflow and how to reproduce failures locally.
+
+### 6. Code Review
 
 All PRs require:
 - At least one approval from a maintainer
 - All CI checks passing
 - No merge conflicts
 
-### 6. After Approval
+### 7. After Approval
 
 - Squash and merge or rebase as appropriate
 - Delete branch after merge
