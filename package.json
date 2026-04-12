@@ -210,7 +210,7 @@
     "agentdb": "^2.0.0-alpha.3.6",
     "agentic-payments": "^0.1.13",
     "autoprefixer": "^10.4.21",
-    "axios": "^1.12.2",
+    "axios": "^1.15.0",
     "better-sqlite3": "^11.10.0",
     "dotenv": "^16.4.5",
     "express": "^5.1.0",
