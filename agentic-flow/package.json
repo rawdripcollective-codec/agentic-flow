@@ -172,7 +172,7 @@
   "optionalDependencies": {
     "@ruvector/attention": "^0.1.4",
     "@ruvector/sona": "^0.1.4",
-    "agentdb": "^2.0.0-alpha.3.5",
+    "agentdb": "^3.0.0-alpha.14",
     "better-sqlite3": "^11.10.0",
     "onnxruntime-node": "^1.23.2",
     "sharp": "^0.32.6",
