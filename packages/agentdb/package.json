@@ -116,10 +116,10 @@
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^22.10.2",
     "dotenv": "^16.4.7",
-    "esbuild": "^0.25.11",
-    "tsx": "^4.19.2",
+    "esbuild": "^0.28.1",
+    "tsx": "^4.22.4",
     "typescript": "^5.7.2",
-    "vitest": "^4.0.15"
+    "vitest": "^4.1.8"
   },
   "engines": {
     "node": ">=18.0.0"
