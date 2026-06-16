@@ -133,8 +133,8 @@
     "LICENSE"
   ],
   "optionalDependencies": {
-    "@opentelemetry/resources": "^1.25.0",
-    "@opentelemetry/sdk-node": "^0.52.0",
+    "@opentelemetry/resources": "^2.8.0",
+    "@opentelemetry/sdk-node": "^0.219.0",
     "@opentelemetry/semantic-conventions": "^1.25.0",
     "@ruvector/attention": "^0.1.2",
     "@ruvector/gnn": "^0.1.23",
